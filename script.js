@@ -14,3 +14,5 @@ function writeText() {
 }
 
 setInterval(writeText, 100);
+var audio = new Audio("./song.mp3");
+audio.play();
